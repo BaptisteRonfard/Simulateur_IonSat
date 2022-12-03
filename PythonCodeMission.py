@@ -8,7 +8,6 @@ import math as m
 import numpy as np
 
 
-def run(i, time):
 
 def quaternion_simulation(i, time): #i in  [1, 8]
 
@@ -71,7 +70,7 @@ def quaternion_simulation(i, time): #i in  [1, 8]
     return(q_ref, state)
 
 if __name__ == '__main__':
-    run(i, time) #How do we enter i & time ?
+    quaternion_simulation(i, time) #How do we enter i & time ?
 
 
 
